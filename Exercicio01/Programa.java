@@ -11,11 +11,11 @@ public class Programa {
       double nota3 = LerImprimir.lerNota();
       String nome = LerImprimir.lerNome();
 
-        Aluno aluno1 = new Aluno();
-        aluno1.nome = nome;
-        aluno1.nota1 = nota1;
-        aluno1.nota2 = nota2;
-        aluno1.nota3 = nota3;
+        Aluno aluno1 = new Aluno(nota1, nota2, nota3, nome);
+      //   aluno1.nome = nome;
+      //   aluno1.nota1 = nota1;
+      //   aluno1.nota2 = nota2;
+      //   aluno1.nota3 = nota3;
 
       LerImprimir.imprimirNome(nome);
       LerImprimir.imprimirNota(nota1);
