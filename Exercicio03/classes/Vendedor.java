@@ -7,14 +7,12 @@ public class Vendedor {
     public double vendas;
     public double salarioTotal;
 
-    public void lerValores() {
-        nome = Prompt.lerLinha("Nome do vendedor: ");
-        salarioFixo = Prompt.lerDecimal("Salario fixo: R$");
-        vendas = Prompt.lerDecimal("Vendas: R$");
+    public Vendedor(String nome, double salarioFixo, double vendas) {
+        this.nome = nome;
+        this.salarioFixo = salarioFixo;
+        this.vendas = vendas;
+
+        salarioTotal = this.salarioFixo + (this.vendas * 0.15);
     }
 
-    public void imprimirVendas() {
-        salarioTotal = salarioFixo + (vendas * 0.15);
-        Prompt.imprimir("Salario total: R$"+ salarioTotal);
-    }
 }
