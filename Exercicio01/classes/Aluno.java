@@ -8,16 +8,10 @@ public class Aluno {
     public double nota3;
     public double media;
 
-    public void lerValores() {
-        nota1 = Prompt.lerDecimal("Nota 1: ");
-        nota2 = Prompt.lerDecimal("Nota 2: ");
-        nota3 = Prompt.lerDecimal("Nota 3: ");
-
-        media = (nota1 + nota2 + nota3) / 3; 
-    }
-
-    public void imprimirValores() {
-        Prompt.imprimir("Media: " + media);
-    }
-
+//    public Aluno(double nota1, double nota2, double nota3, String nome) {
+//         this.nome = nome;
+//         this.nota1 = nota1;
+//         this.nota2 = nota2;
+//         this.nota3 = nota3;
+//    }
 }
