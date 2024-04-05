@@ -1,7 +1,7 @@
 package Exercicio08;
 import Exercicio08.classes.Aluno;
 public class Programa {
-    public static void main(String[] args) {
+    public static void executar() {
         
         String nome = Prompt.lerLinha("Nome do aluno: ");
         double[] notas = new double[3];

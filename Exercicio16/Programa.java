@@ -5,7 +5,7 @@ import Exercicio16.classes.Funcionario;
 
 
 public class Programa {
-    public static void main(String[] args) {
+    public static void executar() {
         Funcionario grupo1[] = new Funcionario[3];
 
         for (int i = 0; i < 3; i ++) {

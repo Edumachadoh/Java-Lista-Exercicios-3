@@ -1,7 +1,7 @@
 package Exercicio05;
 import Exercicio05.classes.Loja;
 public class Programa {
-    public static void main(String[] args) {
+    public static void executar() {
         
         double prest = Prompt.lerDecimal("Valor total prestação R$:");
 

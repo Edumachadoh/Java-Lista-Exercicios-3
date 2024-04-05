@@ -4,7 +4,7 @@ import Exercicio12.classes.LeituraImpressao;
 import Exercicio12.Prompt;
 
 public class Programa {
-    public static void main(String[] args) {
+    public static void executar() {
         
         char res = ' ';
         int ano;

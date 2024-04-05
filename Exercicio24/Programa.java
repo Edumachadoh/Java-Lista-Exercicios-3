@@ -6,7 +6,7 @@ import Exercicio24.classes.Calculo;
 
 
 public class Programa {
-    public static void main(String[] args) {
+    public static void executar() {
         double n1 = Prompt.lerDecimal("Nota laboratório: ");
         double n2 = Prompt.lerDecimal("Nota avaliação semestral: ");
         double n3 = Prompt.lerDecimal("Nota exame final: ");

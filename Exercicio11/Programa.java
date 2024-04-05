@@ -5,7 +5,7 @@ import Exercicio11.classes.LeituraNomeSexo;
 import Exercicio11.classes.Sexo;
 
 public class Programa {
-    public static void main(String[] args) {
+    public static void executar() {
         
         int totalM =  0;
         int totalH = 0;

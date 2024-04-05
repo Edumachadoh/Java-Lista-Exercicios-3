@@ -1,7 +1,7 @@
 package Exercicio06;
 import Exercicio06.classes.Preço;
 public class Programa {
-    public static void main(String[] args) {
+    public static void executar() {
         
         double custo = Prompt.lerDecimal("Preço de custo R$:");
         double porc = Prompt.lerDecimal("Porcentagem %:");

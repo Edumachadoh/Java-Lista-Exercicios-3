@@ -6,7 +6,7 @@ import Exercicio19.classes.Triangulo;
 
 
 public class Programa {
-    public static void main(String[] args) {
+    public static void executar() {
         double l1 = Prompt.lerDecimal("Lado 1: ");
         double l2 = Prompt.lerDecimal("Lado 1: ");
         double l3 = Prompt.lerDecimal("Lado 1: ");

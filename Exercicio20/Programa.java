@@ -6,7 +6,7 @@ import Exercicio20.classes.Professor;
 
 
 public class Programa {
-    public static void main(String[] args) {
+    public static void executar() {
         int nivel = Prompt.lerInteiro("Nivel do professor: ");
         int horas = Prompt.lerInteiro("Horas dadas de aula: ");
 

@@ -1,7 +1,7 @@
 package Exercicio07;
 import Exercicio07.classes.CarroCusto;
 public class Programa {
-    public static void main(String[] args) {
+    public static void executar() {
         
 
         double custoFab = Prompt.lerDecimal("Custo de fábrica R$: ");

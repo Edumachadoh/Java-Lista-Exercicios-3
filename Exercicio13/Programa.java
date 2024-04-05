@@ -5,7 +5,7 @@ import Exercicio13.Prompt;
 import Exercicio13.classes.Pessoa;
 
 public class Programa {
-    public static void main(String[] args) {
+    public static void executar() {
         int cont = Prompt.lerInteiro("Numero de pessoas: ");
         
         Pessoa pessoa1[] = new Pessoa[cont];

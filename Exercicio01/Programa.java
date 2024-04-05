@@ -4,7 +4,7 @@ import Exercicio01.classes.LerImprimir;
 
 public class Programa {
     
-   public static void main(String[] args) {
+   public static void executar() {
 
       double nota1 = LerImprimir.lerNota();
       double nota2 = LerImprimir.lerNota();

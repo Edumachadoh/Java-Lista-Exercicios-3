@@ -5,7 +5,7 @@ import Exercicio15.classes.Carro;
 
 
 public class Programa {
-    public static void main(String[] args) {
+    public static void executar() {
         int cont = 0;
         double valorTotal = 1;
         Carro cliente1[] = new Carro[100];

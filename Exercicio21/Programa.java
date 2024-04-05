@@ -6,7 +6,7 @@ import Exercicio21.classes.Nadador;
 
 
 public class Programa {
-    public static void main(String[] args) {
+    public static void executar() {
        int idade = Prompt.lerInteiro("Idade do nadador: ");
 
        Nadador jeferson = new Nadador(idade);

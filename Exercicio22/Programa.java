@@ -6,7 +6,7 @@ import Exercicio22.classes.Consumo;
 
 
 public class Programa {
-    public static void main(String[] args) {
+    public static void executar() {
         int tipo = Prompt.lerInteiro("Tipo [1] Residência / [2] - Comércio / [3] - Industria: ");
         double consumo = Prompt.lerDecimal("Kw/h consumido: ");
 

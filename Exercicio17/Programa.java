@@ -5,7 +5,7 @@ import Exercicio17.classes.Funcionario;
 
 
 public class Programa {
-    public static void main(String[] args) {
+    public static void executar() {
         String nome = Prompt.lerLinha("Nome: ");
         double salario = Prompt.lerDecimal("Salario R$: "); 
         double salarioMinimo = Prompt.lerDecimal("Salario mínimo atual R$: "); 

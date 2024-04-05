@@ -3,7 +3,7 @@ import Exercicio03.classes.LerImprimir;
 import Exercicio03.classes.Vendedor;
 
 public class Programa {
-    public static void main(String[] args) {
+    public static void executar() {
         
         String nome = LerImprimir.lerNome();
         double salarioFixo = LerImprimir.lerSalarioFixo();

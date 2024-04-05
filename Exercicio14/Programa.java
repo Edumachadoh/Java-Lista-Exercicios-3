@@ -6,7 +6,7 @@ import Exercicio14.Prompt;
 
 
 public class Programa {
-    public static void main(String[] args) {
+    public static void executar() {
         
         Produto prod[] = new Produto[3]; 
         double mediaCusto = 0;

@@ -2,7 +2,7 @@ package Exercicio09;
 import Exercicio09.classes.Numeros;
 import Exercicio09.classes.Contador;
 public class Programa {
-    public static void main(String[] args) {
+    public static void executar() {
         
         int contador = Contador.cont();
 

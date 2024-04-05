@@ -5,7 +5,7 @@ import Exercicio18.classes.Funcionario;
 
 
 public class Programa {
-    public static void main(String[] args) {
+    public static void executar() {
 
         String nome = Prompt.lerLinha("Nome: ");
         char sexo = Prompt.lerCaractere("Sexo [M / F]: ");

@@ -1,7 +1,7 @@
 package Exercicio04;
 import Exercicio04.classes.Dolar;
 public class Programa {
-    public static void main(String[] args) {
+    public static void executar() {
         
         double dolar = Prompt.lerDecimal("Cotação do dolar: ");
         double valorDisp = Prompt.lerDecimal("Dolares disponiveis: ");
