@@ -2,9 +2,9 @@ public class Programa {
     public static void main(String[] args) {
         // Exercicio01.Programa.executar();
         //Exercicio02.Programa.executar();
-         Exercicio03.Programa.executar();
+        // Exercicio03.Programa.executar();
         // Exercicio04.Programa.executar();
-        // Exercicio05.Programa.executar();
+         Exercicio05.Programa.executar();
         // Exercicio06.Programa.executar();
         // Exercicio07.Programa.executar();
         // Exercicio08.Programa.executar();

@@ -1,11 +1,27 @@
 package Exercicio05.classes;
 
 public class Loja {
-    public double prestação;
+    private double prestação;
+    private double total;
+    
 
 
+    public Loja(double total) {
+        this.total = total;
+    }
+    public Loja() {
+        
+    }
 
-    public Loja(double prest) {
-        this.prestação = prest / 5;
+    public void setTotal(double total) {
+        this.total = total;
+    }
+
+    public void calcPrestacao() {
+        this.prestação = this.total / 5;
+    }
+    
+    public double getPrestacao() {
+        return this.prestação;
     }
 }

@@ -8,9 +8,12 @@ public class Programa {
 
 
         Dolar cliente1 = new Dolar(dolar, valorDisp);
+        cliente1.setDolar(5.6);
+        cliente1.setValorDisp(1000);
+        cliente1.calculo();
         
-        Prompt.imprimir("Cotacao: U$D " + cliente1.cotacao);
-        Prompt.imprimir("Convertido em reais: R$ " + cliente1.real);
-        Prompt.imprimir("Valor disponivel: U$D " + cliente1.dolaresDisponiveis);
+        Prompt.imprimir("Cotacao: U$D " + cliente1.getCotacao());
+        Prompt.imprimir("Convertido em reais: R$ " + cliente1.getReal());
+        Prompt.imprimir("Valor disponivel: U$D " + cliente1.getDolaresDisp());
     }
 }
