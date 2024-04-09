@@ -6,10 +6,12 @@ public class Programa {
 
 
 
-      Automovel ford = new Automovel(250, 15);
+      Automovel ford = new Automovel();
       
-      Prompt.imprimir("Consumo medio: " + ford.consMedia);
-     
+      ford.setCombGasto(7);
+      ford.setDistancia(200);
+      Prompt.imprimir("Consumo medio: " + ford.getConsumoMedio());
+      
 
 
 

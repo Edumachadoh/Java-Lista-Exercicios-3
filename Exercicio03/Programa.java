@@ -11,11 +11,14 @@ public class Programa {
         
         
         
-        Vendedor Welington = new Vendedor(nome, salarioFixo, vendas);
+        Vendedor pessoa1 = new Vendedor(nome, salarioFixo, vendas);
+        pessoa1.setNome("Joao");
+        pessoa1.setSalarioFixo(2000);
+        pessoa1.setVendas(300);
 
-        LerImprimir.imprimirNome(nome);
-        LerImprimir.imprimirSalarioF(Welington.salarioFixo);
-        LerImprimir.imprimirSalarioT(Welington.salarioTotal);
+        LerImprimir.imprimirNome(pessoa1.getNome());
+        LerImprimir.imprimirSalarioF(pessoa1.getSalarioTotal());
+        LerImprimir.imprimirSalarioT(pessoa1.getSalarioTotal());
 
 
     }
