@@ -8,8 +8,10 @@ public class Programa {
 
 
        CarroCusto carro1 = new CarroCusto(custoFab, 28, 45);
-      
        
-       System.out.printf("Preço total para o consumidor: R$ %.1f", carro1.precoFinal);
+       carro1.setPorcDist(10);
+       carro1.setPorcDist(5);
+    
+       System.out.printf("Preço total para o consumidor: R$ %.1f", carro1.calcularPreçoFinal());
     }
 }
