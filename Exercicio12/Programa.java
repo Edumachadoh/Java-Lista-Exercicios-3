@@ -19,18 +19,21 @@ public class Programa {
         if (res == 'N') {
             break;
         }
-        valor = LeituraImpressao.valorCarro();
         
         ano = LeituraImpressao.ano();
         if (ano <= 2000) {
             cont2000 ++;
         }
 
+        valor = LeituraImpressao.valorCarro();
         carro[cont] = new Cliente(valor, ano);
-        System.out.printf("Desconto: R$%.2f\n", carro[cont].valorDesc);
-        System.out.printf("Valor total: R$%.2f\n", carro[cont].totalValor);
+        System.out.printf("Desconto: R$%.2f\n", carro[cont].getValorDesc());
+        System.out.printf("Valor total: R$%.2f\n", carro[cont].getTotalValor());
         cont++;
       } while (res != 'N');
+
+      carro[cont - 1].setcont2000(cont2000);
+      System.out.printf("Carros com ano menor que 2000: %d", carro[cont - 1].getcont2000());
 
     }
 }
