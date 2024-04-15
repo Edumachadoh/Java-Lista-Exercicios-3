@@ -3,34 +3,52 @@ package Exercicio10.classes;
 import Exercicio10.Prompt;
 
 public class Pessoa {
-    public String nome;
-    public int idade;
-    public String menorMaior;
+    private String nome;
+    private int idade;
+    private String menorMaior;
 
-    
-
-    public Pessoa(int idade, String nome) {
+     public Pessoa(int idade, String nome) {
         this.nome = nome;
         this.idade = idade;
+    }
 
-        if (this.idade > 18) {
-            this.menorMaior = "Maior";
-        } else {
-            this.menorMaior = "Menor";
-        }
+    public Pessoa() {
+    }
+
+    public Pessoa(int idade) {
+        this.idade = idade;
+    }
+
+    public Pessoa(String nome) {
+        this.nome = nome;
     }
 
 
-    public static String inserirNome() {
-        String nome = Prompt.lerLinha("Digite seu nome: ");
-
+    
+    public String getNome() {
         return nome;
     }
 
-    public static int inserirIdade() {
-        int idade = Prompt.lerInteiro("Digite sua idade: ");
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
 
+    public int getIdade() {
         return idade;
     }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public String dizerMaiorMenor() {
+        if (this.idade > 18) {
+             return this.menorMaior = "Maior";
+        } else {
+            return this.menorMaior = "Menor";
+        }
+    }
+
+    
 
 }
